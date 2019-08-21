@@ -2,12 +2,12 @@ URL:
 [python-regular-expression-tutorial](https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial)
 
 #### Basic Patterns: Ordinary Characters
-    1.  script: basic_pattern.py
-    2.  detail: Matching themselves exactly and do not have a special meaning in their regular expression syntax
+1.  script: basic_pattern.py
+2.  detail: Matching themselves exactly and do not have a special meaning in their regular expression syntax
 
 #### Wild Card Characters: Special Characters
-    1.  script: special_characters.py
-    2.  Cheat sheet
+1.  script: special_characters.py
+2.  Cheat sheet
     
     |Characters|Function|
     |:---|:---|
@@ -27,4 +27,16 @@ URL:
     |\A|Matches only at the start of the string. Works across multiple lines as well|
     |\b|Matches only the beginning or end of the word|
     |\\|If the character following the backslash is a recognized escape character, then the special meaning of the term is taken. For example, \n is considered as newline. However, if the character following the \ is not a recognized escape character, then the \ is treated like any other character and passed through.|
-    
+
+#### Repetitions
+1.  script: repetitions.py
+2.  Cheat sheet
+
+    |Characters|Function|
+    |:---|:---|
+    |+|Checks for one or more characters to its left|
+    |*|Checks for zero or more characters to its left|
+    |?|Checks for exactly zero or one character to its left|
+    |{x}|Repeat exactly x number of times|
+    |{x,}|Repeat at least x times or more|
+    |{x, y}|Repeat at least x times but no more than y times|
