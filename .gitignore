@@ -2,3 +2,4 @@
 __pycache__/
 # Intellij IDE file
 .idea/
+.ipynb_checkpoints/
